@@ -1,0 +1,20 @@
+{
+    "name": "Ascend 910B2",
+    "totalGlobalMem": 68719476736,
+    "computeMajor": 8,
+    "computeMinor": 0,
+    "numSms": 24,
+    "memBandwidth": 1400,
+    "l1CacheSize": 512,
+    "sharedMemorySize": 512,
+    "l2CacheSize": 196608,
+    "registerFileSize": 128,
+    "l2CacheBandwidth": 3850,
+    "sharedMemoryBandwidth": 512,
+    "tcBf16": 8192,
+    "tcFp8": 0,
+    "xuFp32": 32,
+    "FmaFp32": 64,
+    "smFreq": 1800,
+    "architecture": "ascend_910b2"
+}

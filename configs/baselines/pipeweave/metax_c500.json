@@ -1,0 +1,20 @@
+{
+    "name": "MetaX C500",
+    "totalGlobalMem": 68719476736,
+    "computeMajor": 8,
+    "computeMinor": 0,
+    "numSms": 104,
+    "memBandwidth": 1800,
+    "l1CacheSize": 32,
+    "sharedMemorySize": 64,
+    "l2CacheSize": 8192,
+    "registerFileSize": 512,
+    "l2CacheBandwidth": 3051,
+    "sharedMemoryBandwidth": 128,
+    "tcBf16": 2048,
+    "tcFp8": 0,
+    "xuFp32": 8,
+    "FmaFp32": 64,
+    "smFreq": 1125,
+    "architecture": "metax_c500"
+}
