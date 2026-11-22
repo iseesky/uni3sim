@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="188 162 855 458" width="855" height="458" role="img" aria-labelledby="title desc">
   <title id="title">Uni³Sim host, memory, and kernel-plan architecture</title>
-  <desc id="desc">Requests enter a vLLM or SGLang scheduler backed by a host and memory pool. The scheduler creates a kernel plan, which feeds a performance model and a host-device timeline. Host overhead also feeds the host-device timeline. Interconnect operations provide H2D, D2H, D2D and collective transfers. The performance model exchanges state with local HBM, HBF and DRAM; timeline step times and memory APIs feed back to the scheduler.</desc>
+  <desc id="desc">Requests enter a vLLM or SGLang scheduler backed by a host and memory pool. The scheduler creates a kernel plan, which feeds a performance model and a host-device timeline. Host overhead also feeds the host-device timeline. Communication operations provide H2D, D2H, D2D and collective transfers. The performance model exchanges state with local HBM, HBF and DRAM; timeline step times and memory APIs feed back to the scheduler.</desc>
   <defs/>
   <g font-family="Arial, Helvetica, sans-serif">
     <g id="shape-4">
@@ -26,7 +26,7 @@
       <g>
         <rect x="213.8666" y="274.6881" width="60.2666" height="237.0395" rx="5.1227" fill="#e9f6fc" stroke="#68a4be" stroke-width="1.5001"/>
         <g transform="rotate(-90 243.9998 393.2078)">
-          <text x="243.9998" y="401.3678" font-size="24.0000" font-weight="700" font-family="sans-serif" fill="#22324a" text-anchor="middle">Interconnect</text>
+          <text x="243.9998" y="401.3678" font-size="24.0000" font-weight="700" font-family="sans-serif" fill="#22324a" text-anchor="middle">Communication</text>
         </g>
       </g>
     </g>

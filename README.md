@@ -56,3 +56,39 @@ Open `experiment_logs/serving/demo/conformance/result.html`. This synthetic exam
 - [Kernel performance models](docs/kernel_performance_model.md)
 
 Backend support and validation scope are documented in the guides above.
+
+## Citation and Acknowledgements
+
+- **Unified compute modeling.** If you use Uni³Sim's compute models, please cite [our paper](https://doi.org/10.1109/LCA.2026.3752142).
+
+  ```bibtex
+  @article{yang2026kernel,
+    author = {Yang, Xinhao and Zhu, Yu and Xue, Yukun and Li, Zhaoshi and Li, Xiuhong and Wu, Baodong and Li, Wen and Mao, Qiuli and Li, Boxun and Chen, Xiaoming and Dai, Guohao and Zhu, Zhangming and Yang, Huazhong and Xie, Yuan and Zhu, Zhenhua and Wang, Yu},
+    title = {When Kernel Meets System: Chip-to-System Modeling across {AI} Hardware for {LLM} Serving},
+    journal = {IEEE Computer Architecture Letters},
+    year = {2026},
+    pages = {1--4},
+    doi = {10.1109/LCA.2026.3752142}
+  }
+  ```
+
+- **Unified communication modeling.** Citation pending public release.
+- **Unified memory-system modeling.** Citation pending public release.
+
+### Acknowledgements
+
+Uni³Sim's approach to integrating real-world LLM serving frameworks was inspired by rLLM. We recommend citing [rLLM](https://dl.acm.org/doi/abs/10.1145/3845814.3850087) as well.
+
+```bibtex
+@inproceedings{liu2027rllm,
+  author = {Liu, Shiyi and Xia, Yiran and Zhu, Zhenhua and Bai, Chen and Xu, Ceyu and Xie, Yuan},
+  title = {{rLLM}: A Serving-Aware Simulation Framework for Realistic {LLM} Hardware Evaluation},
+  booktitle = {Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1},
+  series = {ASPLOS '27},
+  publisher = {Association for Computing Machinery},
+  year = {2027},
+  pages = {790--803},
+  doi = {10.1145/3845814.3850087},
+  url = {https://doi.org/10.1145/3845814.3850087}
+}
+```
