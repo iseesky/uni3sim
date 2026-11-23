@@ -1,7 +1,13 @@
 <h1 align="center">Uni<sup>3</sup>Sim: Simulation for LLM Serving at Scale</h1>
 
 <p align="center">
-  <a href="https://thu-nics.github.io/uni3sim-website/">Website</a>
+  Xinhao Yang<sup>*</sup>, Yu Zhu<sup>*</sup>, Tianyu Liao<sup>*</sup>, Tongxin Xie, Zhenhua Zhu<sup>†</sup>, Yu Wang<br>
+  NICS-EFC, Tsinghua University<br>
+  <sup>*</sup> These authors contributed equally.&nbsp;&nbsp; <sup>†</sup> Corresponding author.
+</p>
+
+<p align="center">
+  <a href="https://thu-nics.github.io/uni3sim-website/">🌐 Project Page</a>
 </p>
 
 Uni³Sim predicts LLM inference latency and throughput by combining framework execution models with analytical models of compute, memory, and interconnects. Explore how workloads, parallelism, and hardware choices affect the whole system.
@@ -92,3 +98,7 @@ Uni³Sim's approach to integrating real-world LLM serving frameworks was inspire
   url = {https://doi.org/10.1145/3845814.3850087}
 }
 ```
+
+## Contact
+
+Zhenhua Zhu: [zhuzhenhua@mail.tsinghua.edu.cn](mailto:zhuzhenhua@mail.tsinghua.edu.cn)
